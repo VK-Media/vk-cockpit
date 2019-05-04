@@ -2615,20 +2615,20 @@ riot.tag2('field-layout', '<div class="uk-sortable layout-components {!items.len
         this.settingsComponent = null;
         this.componentGroups = {'Core':[]};
         this.generalSettingsFields  = [];
+        this.contentTypes = {name: "type", label: App.i18n.get('Type'), type: "select", options:{options:['grøn','blå','rød']}, default: "grøn"}
 
         this.components = {
             "section": {
                 "label": App.i18n.get('Section'),
                 "group": App.i18n.get('Core'),
                 "children":true,
-                "fields": [
-                    {name: "type", label: App.i18n.get('Type'), type: "select", options:{options:['grøn','blå','rød']}, default: "grøn"}
-                ]
+                "fields": [this.contentTypes]
             },
 
             "grid": {
                 "label": App.i18n.get('Grid'),
-                "group": App.i18n.get('Core')
+                "group": App.i18n.get('Core'),
+                "fields": [this.contentTypes]
             },
 
             "text": {

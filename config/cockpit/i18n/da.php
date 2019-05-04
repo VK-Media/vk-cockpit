@@ -267,7 +267,7 @@ return [
     'Size' => 'Størrelse',
     'Last modified' => 'Sidst ændret',
     'This folder is empty.' => 'Denne mappe er tom.',
-    'File(s) uploaded.' => 'Filer uploaded.',
+    'File(s) uploaded.' => 'Fil(er) uploadet',
     'Save file' => 'Gem fil',
     'File saved' => 'Fil gemt',
     'Close file' => 'Luk fil',
@@ -290,6 +290,8 @@ return [
     'Document' => 'Dokument',
     'Archive' => 'Arkiv',
     'Code' => 'Kode',
+    'Folder Name' => 'Mappe navn',
+    'No Assets found' => 'Ingen medier fundet',
 
     // Regions
     'Regions' => 'Regioner',
@@ -419,5 +421,10 @@ return [
     'Enter Image Url' => 'Indtast billede url',
     'Edit meta data' => 'Ret meta data',
     'Reset' => 'Nulstil',
-    'Main' => 'Primær'
+    'Main' => 'Primær',
+    'Add Column' => 'Tilføj kolonne',
+    'Column' => 'Kolonne',
+    'Add images' => 'Tilføj billeder',
+    'Gallery is empty' => 'Galleriet er tomt',
+    'Asset' => 'Medie'
 ];
