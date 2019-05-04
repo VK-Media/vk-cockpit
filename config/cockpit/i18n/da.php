@@ -68,6 +68,16 @@ return [
     'Not saved yet' => 'Ikke gemt endnu',
     'Localized field' => 'Lokaliseret felt',
     'Item' => 'Element',
+    'Forgot Password?' => 'Glemt kodeord?',
+    'Permissions' => 'Rettigheder',
+    'Enabled' => 'Aktiveret',
+    'Create' => 'Opret',
+    'Read' => 'Læse',
+    'Delete' => 'Slette',
+    'Text' => 'Tekst',
+    'Localize' => 'Lokalisér',
+    'Core' => 'Kerne',
+    'Edit Entry' => 'Ret indlæg',
 
     //Dashboard
     'Welcome back' => 'Velkommen tilbage',
@@ -95,7 +105,6 @@ return [
     'Username' => 'Brugernavn',
     'Email' => 'Email',
     'Password' => 'Adgangskode',
-    'Show' => 'Vis',
     'New Password' => 'Ny Adgangskode',
     'API Key' => 'API Nøgle',
     'Create account' => 'Opret konto',
@@ -108,6 +117,8 @@ return [
     'Account removed' => 'Konto slettet',
     'You can\'t delete yourself!' => 'Du kan ikke slette dig selv!',
     'You can\'t delete admin accounts!' => 'Du kan ikke slette en admin konto!',
+    'Add Account' => 'Tilføj konto',
+    'Filter accounts...' => 'Filtrér konti...',
 
     'Groups' => 'Grupper',
     'Group' => 'Gruppe',
@@ -132,10 +143,15 @@ return [
     'No locales added yet.' => 'Ingen lokalitet tilføjet endnu.',
     'Languages' => 'Sprog',
     'Locales' => 'Lokaliteter',
+    'API Access' => 'API Adgang',
 
     // Addons
     'Addons' => 'Tilføjelser',
     'No additional addons installed.' => 'Ingen ekstra tilføjelser installeret',
+
+    // Webhooks
+    'No Webhooks' => 'Ingen webhooks',
+    'Create a webhook' => 'Opret en webhook',
 
     // Datastore
     'Datastore' => 'Datalager',
@@ -158,12 +174,17 @@ return [
     'Collections' => 'Samlinger',
     'Collection' => 'Samling',
     'Show entries' => 'Vis indlæg',
+    'View Entries' => 'Vis indlæg',
+    'Edit Entries' => 'Redigere indlæg',
+    'Create Entries' => 'Oprette indlæg',
+    'Delete Entries' => 'Slette indlæg',
     'Create new entry' => 'Opret nyt indlæg',
     'Create groups to organize your collections.' => 'Opret grupper for at organisere dine samlinger.',
     'All collections' => 'Alle samlinger',
     'Add Collection' => 'Tilføj samling',
     'Create Collection' => 'Opret samling',
     'Edit collection' => 'Rediger samling',
+    'Edit Collection' => 'Rediger samling',
     'Duplicate collection' => 'Dupler samling',
     'Delete collection' => 'Slet samling',
     'You don\'t have any collections created.' => 'Du har ingen oprettede samlinger.',
@@ -208,6 +229,15 @@ return [
     'Add Entry' => 'Tilføj indlæg',
     'No Collections' => 'Ingen samlinger',
     'No collections' => 'Ingen samlinger',
+    'Icon' => 'Ikon',
+    'Label' => 'Etiket',
+    'Color' => 'Farve',
+    'Description' => 'Beskrivelse',
+    'Custom sortable entries' => 'Brugerdefinerede sorterbare indlæg',
+    'Show in system menu' => 'Vis i system menu',
+    'Only alpha numeric value is allowed' => 'Kun alfanumeriske værdier er tilladte',
+    'Other' => 'Andet',
+    'No fields added yet' => 'Ingen felter tilføjet endnu',
 
     // Mediamanager
     'Mediamanager' => 'Medieadministrator',
@@ -372,5 +402,22 @@ return [
     'Create Singleton' => 'Opret singleton',
 
     // Tags
-    'Add Tag...' => 'Tilføj tag...'
+    'Add Tag...' => 'Tilføj tag...',
+
+    // Layout
+    'Add component' => 'Tilføj indholdselement',
+    'Component' => 'Indholdselement',
+    'Components' => 'Indholdselementer',
+    'Section' => 'Sektion',
+    'Grid' => 'Gitter',
+    'Heading' => 'Overskrift',
+    'Divider' => 'Linje',
+    'Button' => 'Knap',
+    'Select Image' => 'Vælg billede',
+    'Select image' => 'Vælg billede',
+    'Select Asset' => 'Vælg medie',
+    'Enter Image Url' => 'Indtast billede url',
+    'Edit meta data' => 'Ret meta data',
+    'Reset' => 'Nulstil',
+    'Main' => 'Primær'
 ];

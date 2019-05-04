@@ -18,7 +18,7 @@
                        <label class="uk-text-small">@lang('Name')</label>
                        <input class="uk-width-1-1 uk-form-large" type="text" ref="name" bind="collection.name" pattern="[a-zA-Z0-9_]+" required>
                        <p class="uk-text-small uk-text-muted" if="{!collection._id}">
-                           @lang('Only alpha nummeric value is allowed')
+                           @lang('Only alpha numeric value is allowed')
                        </p>
                    </div>
 
@@ -140,7 +140,7 @@
 
                     <div class="uk-margin uk-panel-box uk-panel-card">
                         <div class="uk-flex uk-flex-middle">
-                            <div class="uk-flex-item-1"><span class="uk-badge uk-badge-success uk-text-uppercase uk-margin-small-bottom badge-rule">Create</span></div>
+                            <div class="uk-flex-item-1"><span class="uk-badge uk-badge-success uk-text-uppercase badge-rule">@lang('Create')</span></div>
                             <div><field-boolean bind="collection.rules.create.enabled" label="@lang('Enabled')"></field-boolean></div>
                         </div>
                         <field-code bind="rules.create" syntax="php" if="{collection.rules.create.enabled}" height="350"></field-code>
@@ -148,7 +148,7 @@
 
                     <div class="uk-margin uk-panel-box uk-panel-card">
                         <div class="uk-flex uk-flex-middle">
-                            <div class="uk-flex-item-1"><span class="uk-badge uk-text-uppercase uk-margin-small-bottom badge-rule">Read</span></div>
+                            <div class="uk-flex-item-1"><span class="uk-badge uk-text-uppercase badge-rule">@lang('Read')</span></div>
                             <div><field-boolean bind="collection.rules.read.enabled" label="@lang('Enabled')"></field-boolean></div>
                         </div>
                         <field-code bind="rules.read" syntax="php" if="{collection.rules.read.enabled}" height="350"></field-code>
@@ -156,7 +156,7 @@
 
                     <div class="uk-margin uk-panel-box uk-panel-card">
                         <div class="uk-flex uk-flex-middle">
-                            <div class="uk-flex-item-1"><span class="uk-badge uk-badge-warning uk-text-uppercase uk-margin-small-bottom badge-rule">Update</span></div>
+                            <div class="uk-flex-item-1"><span class="uk-badge uk-badge-warning uk-text-uppercase badge-rule">@lang('Update')</span></div>
                             <div><field-boolean bind="collection.rules.update.enabled" label="@lang('Enabled')"></field-boolean></div>
                         </div>
                         <field-code bind="rules.update" syntax="php" if="{collection.rules.update.enabled}" height="350"></field-code>
@@ -164,7 +164,7 @@
 
                     <div class="uk-margin uk-panel-box uk-panel-card">
                         <div class="uk-flex uk-flex-middle">
-                            <div class="uk-flex-item-1"><span class="uk-badge uk-badge-danger uk-text-uppercase uk-margin-small-bottom badge-rule">Delete</span></div>
+                            <div class="uk-flex-item-1"><span class="uk-badge uk-badge-danger uk-text-uppercase badge-rule">@lang('Delete')</span></div>
                             <div><field-boolean bind="collection.rules.delete.enabled" label="@lang('Enabled')"></field-boolean></div>
                         </div>
                         <field-code bind="rules.delete" syntax="php" if="{collection.rules.delete.enabled}" height="350"></field-code>

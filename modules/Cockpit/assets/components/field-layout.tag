@@ -149,78 +149,84 @@
         this.items = [];
         this.settingsComponent = null;
         this.componentGroups = {'Core':[]};
-        this.generalSettingsFields  = [
-            {name: "id", type: "text", group: "General" },
-            {name: "class", type: "text", group: "General" },
-            {name: "style", type: "code", group: "General", options: {syntax: "css", height: "100px"}}
-        ];
+        this.generalSettingsFields  = [];
 
         this.components = {
             "section": {
-                "group": "Core",
-                "children":true
+                "label": App.i18n.get('Section'),
+                "group": App.i18n.get('Core'),
+                "children":true,
+                "fields": [
+                    {name: "type", label: App.i18n.get('Type'), type: "select", options:{options:['grøn','blå','rød']}, default: "grøn"}
+                ]
             },
 
             "grid": {
-                "group": "Core"
+                "label": App.i18n.get('Grid'),
+                "group": App.i18n.get('Core')
             },
 
             "text": {
-                "group": "Core",
+                "label": App.i18n.get('Text'),
+                "group": App.i18n.get('Core'),
                 "icon": App.base('/assets/app/media/icons/text.svg'),
                 "dialog": "large",
                 "fields": [
-                    {"name": "text", "type": "wysiwyg", "default": ""}
+                    {"name": "text", label: App.i18n.get('Text'), "type": "wysiwyg", "default": ""}
                 ]
             },
 
             "html": {
-                "group": "Core",
+                "label": App.i18n.get('Html'),
+                "group": App.i18n.get('Core'),
                 "icon": App.base('/assets/app/media/icons/code.svg'),
                 "dialog": "large",
                 "fields": [
-                    {"name": "html", "type": "html", "default": ""}
+                    {"name": "html", label: App.i18n.get('Html'), "type": "html", "default": ""}
                 ]
             },
 
             "heading": {
-                "group": "Core",
+                "label": App.i18n.get('Heading'),
+                "group": App.i18n.get('Core'),
                 "icon": App.base('/assets/app/media/icons/heading.svg'),
                 "fields": [
-                    {"name": "text", "type": "text", "default": "Header"},
-                    {"name": "tag", "type": "select", "options":{"options":['h1','h2','h3','h4','h5','h6']}, "default": "h1"}
+                    {"name": "text", label: App.i18n.get('Text'), "type": "text", "default": "Header"},
+                    {"name": "tag", label: App.i18n.get('Tag'), "type": "select", "options":{"options":['h1','h2','h3','h4','h5','h6']}, "default": "h1"}
                 ]
             },
 
             "image": {
-                "group": "Core",
+                "label": App.i18n.get('Image'),
+                "group": App.i18n.get('Core'),
                 "icon": App.base('/assets/app/media/icons/photo.svg'),
                 "fields": [
-                    {"name": "image", "type": "image", "default": {}},
-                    {"name": "width", "type": "text", "default": ""},
-                    {"name": "height", "type": "text", "default": ""}
+                    {"name": "image", label: App.i18n.get('Image'), "type": "image", "default": {}}
                 ]
             },
 
             "gallery": {
-                "group": "Core",
+                "label": App.i18n.get('Gallery'),
+                "group": App.i18n.get('Core'),
                 "icon": App.base('/assets/app/media/icons/gallery.svg'),
                 "fields": [
-                    {"name": "gallery", "type": "gallery", "default": []}
+                    {"name": "gallery", label: App.i18n.get('Gallery'), "type": "gallery", "default": []}
                 ]
             },
 
             "divider": {
-                "group": "Core",
+                "label": App.i18n.get('Divider'),
+                "group": App.i18n.get('Core'),
                 "icon": App.base('/assets/app/media/icons/divider.svg'),
             },
 
             "button": {
-                "group": "Core",
+                "label": App.i18n.get('Button'),
+                "group": App.i18n.get('Core'),
                 "icon": App.base('/assets/app/media/icons/button.svg'),
                 "fields": [
-                    {"name": "text", "type": "text", "default": ""},
-                    {"name": "url", "type": "text", "default": ""}
+                    {"name": "text", label: App.i18n.get('Text'), "type": "text", "default": ""},
+                    {"name": "url", label: App.i18n.get('Url'), "type": "text", "default": ""}
                 ]
             }
         };

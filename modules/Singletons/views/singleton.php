@@ -20,7 +20,7 @@
                        <label class="uk-text-small">@lang('Name')</label>
                        <input class="uk-width-1-1 uk-form-large" type="text" ref="name" bind="singleton.name" pattern="[a-zA-Z0-9_]+" required>
                        <p class="uk-text-small uk-text-muted" if="{!singleton._id}">
-                           @lang('Only alpha nummeric value is allowed')
+                           @lang('Only alpha numeric value is allowed')
                        </p>
                    </div>
 
