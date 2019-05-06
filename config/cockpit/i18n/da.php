@@ -78,6 +78,7 @@ return [
     'Localize' => 'Lokalisér',
     'Core' => 'Kerne',
     'Edit Entry' => 'Ret indlæg',
+    'Duplicate' => 'Duplikér',
 
     //Dashboard
     'Welcome back' => 'Velkommen tilbage',

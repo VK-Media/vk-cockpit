@@ -316,7 +316,7 @@
     };
 
     App.Utils.renderer.layout = function(v) {
-        return Array.isArray(v) ? '<span class="uk-badge">'+v.length+(v.length==1 ? ' Component':' Components')+'</span>' : App.Utils.renderer.default(v);
+        return Array.isArray(v) ? '<span class="uk-badge">' + v.length + ' ' + App.i18n.get((v.length==1 ? 'Component':'Components'))+'</span>' : App.Utils.renderer.default(v);
     };
 
     App.Utils.renderer.set = function(v, meta) {
