@@ -2615,7 +2615,7 @@ riot.tag2('field-layout', '<div class="uk-sortable layout-components {!items.len
         this.settingsComponent = null;
         this.componentGroups = {'Core':[]};
         this.generalSettingsFields  = [];
-        this.contentTypes = {name: "type", label: App.i18n.get('Type'), type: "select", options:{options:['grøn','blå','rød']}, default: "grøn"}
+        this.contentTypes = {name: "type", label: App.i18n.get('Type'), type: "select", options:{options:['Hero','Tekst','rød']}, default: "grøn"}
 
         this.components = {
             "section": {
