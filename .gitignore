@@ -20,8 +20,6 @@ package-lock.json
 /node_modules
 !.gitignore
 !.gitkeep
-!/storage/*/index.html
-!/storage/*/.htaccess
 defines.php
 # Sublime Text
 *.sublime-workspace
