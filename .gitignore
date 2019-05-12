@@ -16,8 +16,6 @@ package-lock.json
 /lib/**/test/*
 /lib/**/\.travis/*
 /lib/**/\.travis.yml
-/storage/*.*
-/storage/*/*
 /tests/*
 /node_modules
 !.gitignore
