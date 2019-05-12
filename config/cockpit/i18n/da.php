@@ -73,12 +73,12 @@ return [
     'Enabled' => 'Aktiveret',
     'Create' => 'Opret',
     'Read' => 'Læse',
-    'Delete' => 'Slette',
     'Text' => 'Tekst',
     'Localize' => 'Lokalisér',
     'Core' => 'Kerne',
     'Edit Entry' => 'Ret indlæg',
     'Duplicate' => 'Duplikér',
+    'Saving successful' => 'Ændringerne er gemt',
 
     //Dashboard
     'Welcome back' => 'Velkommen tilbage',
@@ -293,6 +293,7 @@ return [
     'Code' => 'Kode',
     'Folder Name' => 'Mappe navn',
     'No Assets found' => 'Ingen medier fundet',
+    'Folder Name:' => 'Mappe navn:',
 
     // Regions
     'Regions' => 'Regioner',
@@ -427,5 +428,6 @@ return [
     'Column' => 'Kolonne',
     'Add images' => 'Tilføj billeder',
     'Gallery is empty' => 'Galleriet er tomt',
-    'Asset' => 'Medie'
+    'Asset' => 'Medie',
+    'Ratio' => 'Format'
 ];

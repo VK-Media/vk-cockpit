@@ -1897,7 +1897,7 @@ riot.tag2('field-asset', '<div ref="uploadprogress" class="uk-margin uk-hidden">
 
 });
 
-riot.tag2('field-boolean', '<div ref="container" class="uk-display-inline-block" onchange="{toggle}" style="cursor:pointer;"> <div class="uk-form-switch"> <input ref="check" type="checkbox" id="{id}"> <label for="{id}"></label> </div> <span show="{value && (opts.label !== \'false\' && opts.label !== false)}">{opts.label || \'On\'}</span> <span class="uk-text-muted" show="{!value && (opts.label !== \'false\' && opts.label !== false)}">{opts.label || \'Off\'}</span> </div>', '', '', function(opts) {
+riot.tag2('field-boolean', '<div ref="container" class="uk-display-inline-block" onchange="{toggle}" style="cursor:pointer;"> <div class="uk-form-switch"> <input ref="check" type="checkbox" id="{id}"> <label for="{id}"></label> </div> <span show="{value && (opts.label !== \'false\' && opts.label !== false)}">{opts.label || App.i18n.get(\'On\')}</span> <span class="uk-text-muted" show="{!value && (opts.label !== \'false\' && opts.label !== false)}">{opts.label || App.i18n.get(\'Off\')}</span> </div>', '', '', function(opts) {
 
         this.id = 'switch'+Math.ceil(Math.random()*10000000);
 
@@ -2641,16 +2641,6 @@ riot.tag2('field-layout', '<div class="uk-sortable layout-components {!items.len
                 ]
             },
 
-            "html": {
-                "label": App.i18n.get('Html'),
-                "group": App.i18n.get('Core'),
-                "icon": App.base('/assets/app/media/icons/code.svg'),
-                "dialog": "large",
-                "fields": [
-                    {"name": "html", label: App.i18n.get('Html'), "type": "html", "default": ""}
-                ]
-            },
-
             "heading": {
                 "label": App.i18n.get('Heading'),
                 "group": App.i18n.get('Core'),
@@ -2666,7 +2656,10 @@ riot.tag2('field-layout', '<div class="uk-sortable layout-components {!items.len
                 "group": App.i18n.get('Core'),
                 "icon": App.base('/assets/app/media/icons/photo.svg'),
                 "fields": [
-                    {"name": "image", label: App.i18n.get('Image'), "type": "image", "default": {}}
+                    {"name": "image", label: App.i18n.get('Image'), "type": "image", "default": {}},
+                    {"name": "filter", label: App.i18n.get('Filter'), "type": "boolean", "default": false},
+                    {"name": "ratio", label: App.i18n.get('Ratio'), "type": "select", "options":{"options":['4:3','16:9','21:7']}, "default": "16:9"},
+                    {"name": "description", label: App.i18n.get('Description'), "type": "text", "default": ""}
                 ]
             },
 
@@ -2679,19 +2672,15 @@ riot.tag2('field-layout', '<div class="uk-sortable layout-components {!items.len
                 ]
             },
 
-            "divider": {
-                "label": App.i18n.get('Divider'),
-                "group": App.i18n.get('Core'),
-                "icon": App.base('/assets/app/media/icons/divider.svg'),
-            },
-
             "button": {
                 "label": App.i18n.get('Button'),
                 "group": App.i18n.get('Core'),
                 "icon": App.base('/assets/app/media/icons/button.svg'),
                 "fields": [
                     {"name": "text", label: App.i18n.get('Text'), "type": "text", "default": ""},
-                    {"name": "url", label: App.i18n.get('Url'), "type": "text", "default": ""}
+                    {"name": "url", label: App.i18n.get('Url'), "type": "text", "default": ""},
+                    {"name": "target", label: App.i18n.get('Target'), "type": "select", "options":{"options":['_blank','_top']}, "default": "_top"},
+                    {"name": "alignment", label: App.i18n.get('Alignment'), "type": "select", "options":{"options":['Left','Center','Right']}, "default": "Left"}
                 ]
             }
         };

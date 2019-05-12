@@ -6,8 +6,8 @@
             <label for="{ id }"></label>
         </div>
 
-        <span show="{value && (opts.label !== 'false' && opts.label !== false)}">{ opts.label || 'On' }</span>
-        <span class="uk-text-muted" show="{!value && (opts.label !== 'false' && opts.label !== false)}">{ opts.label || 'Off' }</span>
+        <span show="{value && (opts.label !== 'false' && opts.label !== false)}">{ opts.label || App.i18n.get('On') }</span>
+        <span class="uk-text-muted" show="{!value && (opts.label !== 'false' && opts.label !== false)}">{ opts.label || App.i18n.get('Off') }</span>
 
     </div>
 
