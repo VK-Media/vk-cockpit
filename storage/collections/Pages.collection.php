@@ -143,30 +143,11 @@
       array (
       ),
     ),
-    8 => 
-    array (
-      'name' => 'seoKeywords',
-      'label' => 'SEO Nøgleord',
-      'type' => 'textarea',
-      'default' => '',
-      'info' => '',
-      'group' => 'SEO',
-      'localize' => true,
-      'options' => 
-      array (
-        'placeholder' => 'Kommasepereret liste med nøgleord...',
-      ),
-      'width' => '1-1',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-    ),
   ),
   'sortable' => false,
   'in_menu' => true,
   '_created' => 1556887579,
-  '_modified' => 1556901466,
+  '_modified' => 1557726906,
   'color' => '#A0D468',
   'acl' => 
   array (
