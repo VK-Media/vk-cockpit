@@ -150,7 +150,12 @@
         this.settingsComponent = null;
         this.componentGroups = {'Core':[]};
         this.generalSettingsFields  = [];
-        this.contentTypes = {name: "type", label: App.i18n.get('Type'), type: "select", options:{options:['Hero','Tekst','rød']}, default: "grøn"}
+        this.contentTypes = {name: "type", label: App.i18n.get('Type'), type: "select", options:{options:{
+            "hero": App.i18n.get('Hero'),
+            "image-with-text": App.i18n.get('Image with Text'),
+            "text-with-image": App.i18n.get('Text with image'),
+            "green-bg": App.i18n.get('Green background')
+        }}, default: "hero"}
 
         this.components = {
             "section": {
@@ -193,7 +198,12 @@
                 "icon": App.base('/assets/app/media/icons/heading.svg'),
                 "fields": [
                     {"name": "text", label: App.i18n.get('Text'), "type": "text", "default": "Header"},
-                    {"name": "tag", label: App.i18n.get('Tag'), "type": "select", "options":{"options":['h1','h2','h3','h4','h5','h6']}, "default": "h1"}
+                    {"name": "tag", label: App.i18n.get('Tag'), "type": "select", "options":{"options":['h1','h2','h3','h4','h5','h6']}, "default": "h1"},
+                    {"name": "alignment", label: App.i18n.get('Alignment'), "type": "select", "options":{"options":{
+                        "left": App.i18n.get('Left'),
+                        "center": App.i18n.get('Center'),
+                        "right": App.i18n.get('Right')
+                    }}, "default": "Left"}
                 ]
             },
 
