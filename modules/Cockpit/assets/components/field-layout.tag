@@ -231,8 +231,15 @@
                 "fields": [
                     {"name": "text", label: App.i18n.get('Text'), "type": "text", "default": ""},
                     {"name": "url", label: App.i18n.get('Url'), "type": "text", "default": ""},
-                    {"name": "target", label: App.i18n.get('Target'), "type": "select", "options":{"options":['_blank','_top']}, "default": "_top"},
-                    {"name": "alignment", label: App.i18n.get('Alignment'), "type": "select", "options":{"options":['Left','Center','Right']}, "default": "Left"}
+                    {"name": "target", label: App.i18n.get('Target'), "type": "select", "options":{"options":{
+                        "_blank": App.i18n.get('New tab'),
+                        "_top": App.i18n.get('Same tab')
+                    }}, "default": "_top"},
+                    {"name": "alignment", label: App.i18n.get('Alignment'), "type": "select", "options":{"options":{
+                        "left": App.i18n.get('Left'),
+                        "center": App.i18n.get('Center'),
+                        "right": App.i18n.get('Right')
+                    }}, "default": "Left"}
                 ]
             }
         };

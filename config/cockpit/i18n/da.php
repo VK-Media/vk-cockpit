@@ -79,6 +79,9 @@ return [
     'Edit Entry' => 'Ret indlæg',
     'Duplicate' => 'Duplikér',
     'Saving successful' => 'Ændringerne er gemt',
+    'Left' => 'Venstre',
+    'Center' => 'Centreret',
+    'Right' => 'Højre',
 
     //Dashboard
     'Welcome back' => 'Velkommen tilbage',
@@ -429,5 +432,9 @@ return [
     'Add images' => 'Tilføj billeder',
     'Gallery is empty' => 'Galleriet er tomt',
     'Asset' => 'Medie',
-    'Ratio' => 'Format'
+    'Ratio' => 'Format',
+    'Same tab' => 'Samme fane',
+    'New tab' => 'Ny fane',
+    'Target' => 'Mål',
+    'Alignment' => 'Justering'
 ];

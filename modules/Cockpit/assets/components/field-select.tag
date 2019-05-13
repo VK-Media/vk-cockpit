@@ -22,6 +22,8 @@
 
             this.options = [];
 
+            console.log(typeof(opts.options))
+
             if (typeof(opts.options) === 'string' || Array.isArray(opts.options)) {
 
                 this.options = (typeof(opts.options) === 'string' ? opts.options.split(',') : opts.options || []).map(function(option) {
