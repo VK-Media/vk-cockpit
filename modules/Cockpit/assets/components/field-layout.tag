@@ -104,7 +104,7 @@
                     </div>
                     <div class="uk-flex-item-1">
                         <h3 class="uk-margin-remove">{ components[settingsComponent.component].label || App.Utils.ucfirst(settingsComponent.component) }</h3>
-                        <input type="text" class="uk-form-blank uk-width-1-1 uk-text-primary" bind="settingsComponent.name" placeholder="Name" >
+                        <input type="text" class="uk-form-blank uk-width-1-1 uk-text-primary" bind="settingsComponent.name" placeholder="{ App.i18n.get('Name')}" >
                     </div>
                 </div>
             </div>

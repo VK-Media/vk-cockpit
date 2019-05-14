@@ -75,11 +75,6 @@
                                             <li class="{{ strpos($app['route'],'/accounts')===0 ? 'uk-active':'' }}"><a href="@route('/accounts')"><img class="uk-margin-small-right inherit-color" src="@base('assets:app/media/icons/accounts.svg')" width="30" height="30" data-uk-svg alt="assets" /> @lang('Accounts')</a></li>
                                             @end
 
-                                            @hasaccess?('cockpit', 'finder')
-                                            <li class="uk-nav-divider"></li>
-                                            <li class="{{ strpos($app['route'],'/finder')===0 ? 'uk-active':'' }}"><a href="@route('/finder')"><img class="uk-margin-small-right inherit-color" src="@base('assets:app/media/icons/finder.svg')" width="30" height="30" data-uk-svg alt="assets" /> @lang('Finder')</a></li>
-                                            @end
-
                                             @hasaccess?('cockpit', 'settings')
                                             <li class="{{ strpos($app['route'],'/settings')===0 ? 'uk-active':'' }}"><a href="@route('/settings')"><img class="uk-margin-small-right inherit-color" src="@base('assets:app/media/icons/settings.svg')" width="30" height="30" data-uk-svg alt="assets" /> @lang('Settings')</a></li>
                                             @end

@@ -82,6 +82,8 @@ return [
     'Left' => 'Venstre',
     'Center' => 'Centreret',
     'Right' => 'Højre',
+    'Next' => 'Næste',
+    'Previous' => 'Forrige',
 
     //Dashboard
     'Welcome back' => 'Velkommen tilbage',
@@ -423,6 +425,7 @@ return [
     'Select Image' => 'Vælg billede',
     'Select image' => 'Vælg billede',
     'Select Asset' => 'Vælg medie',
+    'Select asset' => 'Vælg medie',
     'Enter Image Url' => 'Indtast billede url',
     'Edit meta data' => 'Ret meta data',
     'Reset' => 'Nulstil',

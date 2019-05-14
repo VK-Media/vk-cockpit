@@ -143,23 +143,6 @@ $app->bind('/check-backend-session', function() {
 
 
 /**
- * on admint init
- */
-$app->on('admin.init', function() {
-
-    // bind finder
-    $this->bind('/finder', function() {
-
-        $this->layout = 'cockpit:views/layouts/app.php';
-        $this["user"] = $this->module('cockpit')->getUser();
-        return $this->view('cockpit:views/base/finder.php');
-
-    }, $this->module('cockpit')->hasaccess('cockpit', 'finder'));
-
-}, 0);
-
-
-/**
  * listen to app search to filter accounts
  */
 
@@ -182,8 +165,6 @@ $app->on('cockpit.search', function($search, $list) {
 });
 
 // dashboard widgets
-
-
 $app->on('admin.dashboard.widgets', function($widgets) {
 
     $title   = $this('i18n')->get('Today');
