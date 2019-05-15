@@ -27,10 +27,15 @@
   'template' => '',
   'data' => NULL,
   '_created' => 1557163980,
-  '_modified' => 1557163980,
+  '_modified' => 1557898772,
   'description' => 'Indhold som bliver vist i bunden af alle sider',
   'acl' => 
   array (
+    'author' => 
+    array (
+      'edit' => true,
+      'form' => true,
+    ),
   ),
   'icon' => 'items.svg',
 );

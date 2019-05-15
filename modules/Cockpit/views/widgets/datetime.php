@@ -6,6 +6,7 @@
             $i18ndata = $app("i18n")->data($app("i18n")->locale);
             $weekdays = $i18ndata["@meta"]["date"]["shortdays"] ?? ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
             $uid      = uniqid('weekdays');
+            setlocale(LC_ALL, $app("i18n")->locale);
         ?>
 
         <style type="text/css">
@@ -26,7 +27,7 @@
         </style>
 
         <div class="uk-panel-box-header">
-            <strong>{{ date('d. M Y') }}</strong>
+            <strong>{{ strftime('%e. %b %Y') }}</strong>
         </div>
 
         <div id="{{ $uid }}" class="uk-grid">

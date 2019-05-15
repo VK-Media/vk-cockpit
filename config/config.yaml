@@ -2,3 +2,13 @@
 i18n: da
 languages:
   en: English
+  
+groups:
+  author:
+    $admin: false
+    cockpit:
+      backend: true
+    collections:
+      manage: true
+    singletons:
+      manage: true

@@ -102,7 +102,7 @@
                                 <div class="uk-flex-item-1">
                                     <div class="uk-margin uk-text-small">
                                         <strong class="uk-text-uppercase">@lang('Singleton')</strong>
-                                        <div class="uk-margin-top"><field-boolean bind="singleton.acl.public.form" label="@lang('Form')"></field-boolean></div>
+                                        <div class="uk-margin-top"><field-boolean bind="singleton.acl.public.form" label="@lang('View Singleton')"></field-boolean></div>
                                         <div class="uk-margin-top"><field-boolean bind="singleton.acl.public.edit" label="@lang('Edit Singleton')"></field-boolean></div>
                                         <div class="uk-margin-top"><field-boolean bind="singleton.acl.public.data" label="@lang('Get Singleton Data')"></field-boolean></div>
                                     </div>
@@ -123,7 +123,7 @@
                                 <div class="uk-flex-item-1">
                                     <div class="uk-margin uk-text-small">
                                         <strong class="uk-text-uppercase">@lang('Singleton')</strong>
-                                        <div class="uk-margin-top"><field-boolean bind="singleton.acl.{group}.form" label="@lang('Form')"></field-boolean></div>
+                                        <div class="uk-margin-top"><field-boolean bind="singleton.acl.{group}.form" label="@lang('View Singleton')"></field-boolean></div>
                                         <div class="uk-margin-top"><field-boolean bind="singleton.acl.{group}.edit" label="@lang('Edit Singleton')"></field-boolean></div>
                                         <div class="uk-margin-top"><field-boolean bind="singleton.acl.{group}.data" label="@lang('Get Singleton Data')"></field-boolean></div>
                                     </div>
@@ -144,7 +144,7 @@
 
                 <div class="uk-button-group">
                     <button class="uk-button uk-button-large uk-button-primary">@lang('Save')</button>
-                    <a class="uk-button uk-button-large" href="@route('/singletons/form')/{ singleton.name }" if="{ singleton._id }">@lang('Show form')</a>
+                    <a class="uk-button uk-button-large" href="@route('/singletons/form')/{ singleton.name }" if="{ singleton._id }">@lang('Show Singleton Data')</a>
                 </div>
 
                 <a class="uk-button uk-button-large uk-button-link" href="@route('/singletons')">

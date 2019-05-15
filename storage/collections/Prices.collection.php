@@ -159,10 +159,21 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1556894066,
-  '_modified' => 1556895233,
+  '_modified' => 1557898492,
   'color' => '#5D9CEC',
   'acl' => 
   array (
+    'author' => 
+    array (
+      'entries_view' => true,
+      'entries_edit' => true,
+      'entries_create' => true,
+      'entries_delete' => true,
+    ),
+    'public' => 
+    array (
+      'entries_view' => false,
+    ),
   ),
   'rules' => 
   array (

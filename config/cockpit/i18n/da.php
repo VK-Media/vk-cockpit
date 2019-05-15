@@ -84,6 +84,7 @@ return [
     'Right' => 'Højre',
     'Next' => 'Næste',
     'Previous' => 'Forrige',
+    'No entries found' => 'Ingen indlæg fundet',
 
     //Dashboard
     'Welcome back' => 'Velkommen tilbage',
@@ -150,6 +151,7 @@ return [
     'Languages' => 'Sprog',
     'Locales' => 'Lokaliteter',
     'API Access' => 'API Adgang',
+    'System Settings' => 'System indstillinger',
 
     // Addons
     'Addons' => 'Tilføjelser',
@@ -409,6 +411,10 @@ return [
     'Add Singleton' => 'Tilføj singleton',
     'No singletons' => 'Ingen singletons',
     'Create Singleton' => 'Opret singleton',
+    'View Singleton' => 'Se singleton',
+    'Edit Singleton' => 'Ret singleton',
+    'Get Singleton Data' => 'Hent singleton data',
+    'Show Singleton Data' => 'Vis singleton data',
 
     // Tags
     'Add Tag...' => 'Tilføj tag...',
@@ -439,5 +445,8 @@ return [
     'Same tab' => 'Samme fane',
     'New tab' => 'Ny fane',
     'Target' => 'Mål',
-    'Alignment' => 'Justering'
+    'Alignment' => 'Justering',
+
+    // User groups
+    'author' => 'Forfatter'
 ];

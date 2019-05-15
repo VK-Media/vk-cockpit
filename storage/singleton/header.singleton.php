@@ -27,10 +27,15 @@
   'template' => '',
   'data' => NULL,
   '_created' => 1557163329,
-  '_modified' => 1557163369,
+  '_modified' => 1557898758,
   'description' => '',
   'acl' => 
   array (
+    'author' => 
+    array (
+      'edit' => true,
+      'form' => true,
+    ),
   ),
   'icon' => 'items.svg',
 );
