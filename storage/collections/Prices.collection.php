@@ -16,6 +16,7 @@
       'localize' => true,
       'options' => 
       array (
+        'slug' => true,
       ),
       'width' => '1-1',
       'lst' => true,
@@ -159,7 +160,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1556894066,
-  '_modified' => 1557898492,
+  '_modified' => 1558018596,
   'color' => '#5D9CEC',
   'acl' => 
   array (
