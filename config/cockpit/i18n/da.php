@@ -448,5 +448,13 @@ return [
     'Alignment' => 'Justering',
 
     // User groups
-    'author' => 'Forfatter'
+    'author' => 'Forfatter',
+
+    // Component addon
+    'Layout Components' => 'Layout elementer',
+    'Filter components...' => 'Filtrér elementer...',
+    'Components updated' => 'Elementet blev updateret',
+    'Collection to link not defined in the field settings' => 'Samlingen der skal linkes til er ikke defineret i feltets indstillinger',
+    'Nothing linked yet' => 'Ingen links endnu',
+    'Create link to' => 'Opret link til'
 ];
