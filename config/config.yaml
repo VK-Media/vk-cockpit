@@ -12,3 +12,5 @@ groups:
       manage: true
     singletons:
       manage: true
+    forms:
+      manage: true

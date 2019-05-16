@@ -219,6 +219,7 @@
                 ]
             },
 
+            /*
             "gallery": {
                 "label": App.i18n.get('Gallery'),
                 "group": App.i18n.get('Core'),
@@ -227,13 +228,13 @@
                     {"name": "gallery", label: App.i18n.get('Gallery'), "type": "gallery", "default": []}
                 ]
             },
-            /*
             "divider": {
                 "label": App.i18n.get('Divider'),
                 "group": App.i18n.get('Core'),
                 "icon": App.base('/assets/app/media/icons/divider.svg'),
             },
             */
+            
             "button": {
                 "label": App.i18n.get('Button'),
                 "group": App.i18n.get('Core'),
