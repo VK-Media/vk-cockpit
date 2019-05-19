@@ -7,13 +7,31 @@
   array (
     0 => 
     array (
-      'name' => 'logo',
-      'label' => 'Logo',
+      'name' => 'logoDark',
+      'label' => 'Mørkt logo',
       'type' => 'image',
       'default' => '',
       'info' => '',
       'group' => '',
-      'localize' => false,
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    1 => 
+    array (
+      'name' => 'logoLight',
+      'label' => 'Lyst logo',
+      'type' => 'image',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
       'options' => 
       array (
       ),
@@ -27,7 +45,7 @@
   'template' => '',
   'data' => NULL,
   '_created' => 1557163329,
-  '_modified' => 1557898758,
+  '_modified' => 1558278007,
   'description' => '',
   'acl' => 
   array (

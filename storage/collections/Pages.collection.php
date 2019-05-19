@@ -143,11 +143,29 @@
       array (
       ),
     ),
+    8 => 
+    array (
+      'name' => 'seoImage',
+      'label' => 'SEO Billede',
+      'type' => 'image',
+      'default' => '',
+      'info' => '',
+      'group' => 'SEO',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+    ),
   ),
   'sortable' => false,
   'in_menu' => true,
   '_created' => 1556887579,
-  '_modified' => 1557898460,
+  '_modified' => 1558277893,
   'color' => '#A0D468',
   'acl' => 
   array (

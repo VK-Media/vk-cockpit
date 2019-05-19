@@ -23,5 +23,77 @@
             }
         ],
         "group": ""
+    },
+    "contactFormular": {
+        "label": "Kontaktformular",
+        "dialog": "normal",
+        "children": false,
+        "fields": [
+            {
+                "name": "name",
+                "label": "Navn",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            },
+            {
+                "name": "email",
+                "label": "Email",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            },
+            {
+                "name": "subject",
+                "label": "Emne",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            },
+            {
+                "name": "message",
+                "label": "Besked",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            },
+            {
+                "name": "button",
+                "label": "Knap",
+                "type": "text",
+                "default": "",
+                "info": "",
+                "group": "",
+                "localize": false,
+                "options": [],
+                "width": "1-1",
+                "lst": true,
+                "acl": []
+            }
+        ]
     }
 }
