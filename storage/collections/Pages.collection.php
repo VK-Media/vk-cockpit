@@ -1,8 +1,8 @@
 <?php
  return array (
-  'name' => 'Pages',
+  'name' => 'pages',
   'label' => 'Sider',
-  '_id' => 'Pages5ccc381b000c3',
+  '_id' => 'pages5ccc381b000c3',
   'fields' => 
   array (
     0 => 

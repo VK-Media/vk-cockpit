@@ -145,7 +145,7 @@
       'localize' => true,
       'options' => 
       array (
-        'link' => 'Pages',
+        'link' => 'pages',
         'display' => 'title',
         'multiple' => false,
         'limit' => false,
