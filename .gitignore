@@ -5,6 +5,7 @@
 .project
 .settings
 .idea
+.vscode
 .env
 composer.lock
 package-lock.json
@@ -16,10 +17,16 @@ package-lock.json
 /lib/**/test/*
 /lib/**/\.travis/*
 /lib/**/\.travis.yml
+/storage/*.*
+/storage/*/*
+/config/*
 /tests/*
 /node_modules
+addons/
 !.gitignore
 !.gitkeep
+!/storage/*/index.html
+!/storage/*/.htaccess
 defines.php
 # Sublime Text
 *.sublime-workspace
