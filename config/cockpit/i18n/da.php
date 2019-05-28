@@ -126,7 +126,7 @@ return [
     'You can\'t delete admin accounts!' => 'Du kan ikke slette en admin konto!',
     'Add Account' => 'Tilføj konto',
     'Filter accounts...' => 'Filtrér konti...',
-
+    'Account saved' => 'Konto gemt',
     'Groups' => 'Grupper',
     'Group' => 'Gruppe',
     'Manage account groups and permissions' => 'Administrer konto grupper og rettigheder',
