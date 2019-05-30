@@ -302,7 +302,7 @@ return [
     'No Assets found' => 'Ingen medier fundet',
     'Folder Name:' => 'Mappe navn:',
     'Something went wrong.' => 'Noget gik galt',
-    'Max image size:' => 'Maks billedstørrelse:'
+    'Max image size:' => 'Maks billedstørrelse:',
 
     // Regions
     'Regions' => 'Regioner',
