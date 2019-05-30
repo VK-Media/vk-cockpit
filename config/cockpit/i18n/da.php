@@ -302,6 +302,7 @@ return [
     'No Assets found' => 'Ingen medier fundet',
     'Folder Name:' => 'Mappe navn:',
     'Something went wrong.' => 'Noget gik galt',
+    'Assets removed' => 'Medie(r) slettet',
     'Max image size:' => 'Maks billedstørrelse:',
 
     // Regions
