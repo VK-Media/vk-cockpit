@@ -62,6 +62,8 @@
                 </div>
             </div>
 
+            <div class="uk-text-right">{ App.i18n.get('Max image size:') } 2MB</div>
+
             <div class="uk-margin">
                 <ul class="uk-breadcrumb">
                     <li onclick="{ changeDir }"><a title="{ App.i18n.get('Change dir to root') }"><i class="uk-icon-home"></i></a></li>
@@ -272,9 +274,7 @@
 
             // handle uploads
             App.assets.require(['/assets/lib/uikit/js/components/upload.js'], function() {
-
                 var uploadSettings = {
-
                     action: App.route('/assetsmanager/upload'),
                     type: 'json',
                     before: function(options) {
@@ -290,7 +290,7 @@
                         $this.refs.progressbar.innerHTML   = '<span>'+percent+'</span>';
                         $this.refs.progressbar.style.width = percent;
                     },
-                    allcomplete: function(response) {
+                    allcomplete: function(response){
 
                         $this.refs.uploadprogress.classList.add('uk-hidden');
 
