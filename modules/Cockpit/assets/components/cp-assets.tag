@@ -62,7 +62,7 @@
                 </div>
             </div>
 
-            <div class="uk-text-right">{ App.i18n.get('Max image size:') } 2MB</div>
+            <div class="uk-margin uk-text-right">{ App.i18n.get('Max image size:') } 2MB</div>
 
             <div class="uk-margin">
                 <ul class="uk-breadcrumb">
