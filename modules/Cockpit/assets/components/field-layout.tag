@@ -214,7 +214,7 @@
                 "fields": [
                     {"name": "image", label: App.i18n.get('Image'), "type": "image", "default": {}},
                     {"name": "filter", label: App.i18n.get('Filter'), "type": "boolean", "default": false},
-                    {"name": "ratio", label: App.i18n.get('Ratio'), "type": "select", "options":{"options":['4:3','16:9','21:7']}, "default": "16:9"},
+                    {"name": "ratio", label: App.i18n.get('Ratio'), "type": "select", "options":{"options":['4:3', '1:1', '16:9', '21:7']}, "default": "16:9"},
                     {"name": "description", label: App.i18n.get('Description'), "type": "text", "default": ""}
                 ]
             },
