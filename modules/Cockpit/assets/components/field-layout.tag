@@ -180,17 +180,6 @@
                     {"name": "text", label: App.i18n.get('Text'), "type": "wysiwyg", "default": ""}
                 ]
             },
-            /*
-            "html": {
-                "label": App.i18n.get('Html'),
-                "group": App.i18n.get('Core'),
-                "icon": App.base('/assets/app/media/icons/code.svg'),
-                "dialog": "large",
-                "fields": [
-                    {"name": "html", label: App.i18n.get('Html'), "type": "html", "default": ""}
-                ]
-            },
-            */
 
             "heading": {
                 "label": App.i18n.get('Heading'),
@@ -250,7 +239,13 @@
                         "left": App.i18n.get('Left'),
                         "center": App.i18n.get('Center'),
                         "right": App.i18n.get('Right')
-                    }}, "default": "Left"}
+                    }}, "default": "Left"},
+                    {"name": "link", label: App.i18n.get('Link'), "type": "collectionlink", "options": {
+                        "link": "Pages",
+                        "multiple": false,
+                        "display": "fieldName"
+                    }},
+                    {"name": "download", label: App.i18n.get('Download'), "type": "asset", "options": {}},
                 ]
             }
         };
