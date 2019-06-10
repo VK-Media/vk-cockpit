@@ -304,6 +304,8 @@ return [
     'Something went wrong.' => 'Noget gik galt',
     'Assets removed' => 'Medie(r) slettet',
     'Max image size:' => 'Maks billedstørrelse:',
+    'No asset selected' => 'Intet medie valgt',
+    'Select one' => 'Vælg et',
 
     // Regions
     'Regions' => 'Regioner',
